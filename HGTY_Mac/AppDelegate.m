@@ -16,8 +16,16 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     NSLog(@"当前项目是:%i (1:HG6668  2:HG0086)",PRODUCT);
+    
+    
+    [NSApp setDelegate:self];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(closeWindow) name:NSWindowWillCloseNotification object:nil];
 }
 
+
+- (void)closeWindow{
+    [NSApp terminate:self];
+}
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application

@@ -13,7 +13,8 @@
 
 
 @property (strong) WKWebView *hgWebView;
-
+@property (strong) NSMutableArray *webviewArray;
+@property (strong) NSMutableArray *tabButtons;
 
 
 @end
