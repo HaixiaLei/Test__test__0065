@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CFCP.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>GMCP copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>GMCP.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>HFCP.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>HG0086.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +38,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>63B6DFA421B5223100EA59EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63CAE0962238D19B0038104B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63CAE0AD2238D6560038104B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

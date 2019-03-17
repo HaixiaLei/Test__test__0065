@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63ABB9582233740300B4EA86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFAC21B5223100EA59EF /* ViewController.m */; };
+		63ABB9592233740300B4EA86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFB421B5223200EA59EF /* main.m */; };
+		63ABB95A2233740300B4EA86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFA921B5223100EA59EF /* AppDelegate.m */; };
+		63ABB95C2233740300B4EA86 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B6DFBD21B524E100EA59EF /* WebKit.framework */; };
+		63ABB95F2233740300B4EA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B6DFB021B5223200EA59EF /* Main.storyboard */; };
+		63ABB9602233740300B4EA86 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B541A821D23E9200CE6616 /* Media.xcassets */; };
+		63ABB969223374A800B4EA86 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63ABB968223374A800B4EA86 /* Info.plist */; };
+		63ABB96B223375A500B4EA86 /* Assets_CFCP.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63ABB96A223375A500B4EA86 /* Assets_CFCP.xcassets */; };
 		63B541A921D23E9200CE6616 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B541A821D23E9200CE6616 /* Media.xcassets */; };
 		63B541AA21D23E9200CE6616 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B541A821D23E9200CE6616 /* Media.xcassets */; };
 		63B6DFAA21B5223100EA59EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFA921B5223100EA59EF /* AppDelegate.m */; };
@@ -23,9 +31,29 @@
 		63C5117521D0D43C00D03EF0 /* Assets_hg0086.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C5117421D0D43C00D03EF0 /* Assets_hg0086.xcassets */; };
 		63C5117721D0D46A00D03EF0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C5117621D0D46A00D03EF0 /* Info.plist */; };
 		63C5117921D0D47700D03EF0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C5117821D0D47700D03EF0 /* Info.plist */; };
+		63CAE0982238D19B0038104B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFAC21B5223100EA59EF /* ViewController.m */; };
+		63CAE0992238D19B0038104B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFB421B5223200EA59EF /* main.m */; };
+		63CAE09A2238D19B0038104B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFA921B5223100EA59EF /* AppDelegate.m */; };
+		63CAE09C2238D19B0038104B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B6DFBD21B524E100EA59EF /* WebKit.framework */; };
+		63CAE09E2238D19B0038104B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B6DFB021B5223200EA59EF /* Main.storyboard */; };
+		63CAE09F2238D19B0038104B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B541A821D23E9200CE6616 /* Media.xcassets */; };
+		63CAE0AF2238D6560038104B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFAC21B5223100EA59EF /* ViewController.m */; };
+		63CAE0B02238D6560038104B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFB421B5223200EA59EF /* main.m */; };
+		63CAE0B12238D6560038104B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFA921B5223100EA59EF /* AppDelegate.m */; };
+		63CAE0B32238D6560038104B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B6DFBD21B524E100EA59EF /* WebKit.framework */; };
+		63CAE0B62238D6560038104B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B6DFB021B5223200EA59EF /* Main.storyboard */; };
+		63CAE0B72238D6560038104B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B541A821D23E9200CE6616 /* Media.xcassets */; };
+		63CAE0BE2238D6D10038104B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63CAE0A82238D26F0038104B /* Info.plist */; };
+		63CAE0BF2238D6D50038104B /* Assets_GMCP.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CAE0A92238D26F0038104B /* Assets_GMCP.xcassets */; };
+		63CAE0C22238D6EB0038104B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63CAE0C02238D6EB0038104B /* Info.plist */; };
+		63CAE0C32238D6EB0038104B /* Assets_GMCP.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CAE0C12238D6EB0038104B /* Assets_GMCP.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63ABB9652233740300B4EA86 /* CFCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63ABB9662233740300B4EA86 /* HG0086 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HG0086 copy-Info.plist"; path = "/Users/david/Desktop/work/projects/HGTY_Mac/HG0086 copy-Info.plist"; sourceTree = "<absolute>"; };
+		63ABB968223374A800B4EA86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63ABB96A223375A500B4EA86 /* Assets_CFCP.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_CFCP.xcassets; sourceTree = "<group>"; };
 		63B541A821D23E9200CE6616 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		63B6DFA521B5223100EA59EF /* HG6668.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HG6668.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B6DFA821B5223100EA59EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,9 +69,25 @@
 		63C5117421D0D43C00D03EF0 /* Assets_hg0086.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_hg0086.xcassets; sourceTree = "<group>"; };
 		63C5117621D0D46A00D03EF0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C5117821D0D47700D03EF0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CAE0A52238D19B0038104B /* GMCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CAE0A62238D19B0038104B /* CFCP copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CFCP copy-Info.plist"; path = "/Users/david/Desktop/work/projects/HGTY_Mac/CFCP copy-Info.plist"; sourceTree = "<absolute>"; };
+		63CAE0A82238D26F0038104B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CAE0A92238D26F0038104B /* Assets_GMCP.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_GMCP.xcassets; sourceTree = "<group>"; };
+		63CAE0BC2238D6560038104B /* HFCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CAE0BD2238D6570038104B /* GMCP copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GMCP copy-Info.plist"; path = "/Users/david/Desktop/work/projects/HGTY_Mac/GMCP copy-Info.plist"; sourceTree = "<absolute>"; };
+		63CAE0C02238D6EB0038104B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CAE0C12238D6EB0038104B /* Assets_GMCP.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_GMCP.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		63ABB95B2233740300B4EA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ABB95C2233740300B4EA86 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63B6DFA221B5223100EA59EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,15 +104,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63CAE09B2238D19B0038104B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CAE09C2238D19B0038104B /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CAE0B22238D6560038104B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CAE0B32238D6560038104B /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63ABB9672233746900B4EA86 /* CFCP */ = {
+			isa = PBXGroup;
+			children = (
+				63ABB96A223375A500B4EA86 /* Assets_CFCP.xcassets */,
+				63ABB968223374A800B4EA86 /* Info.plist */,
+			);
+			path = CFCP;
+			sourceTree = "<group>";
+		};
 		63B6DF9C21B5223100EA59EF = {
 			isa = PBXGroup;
 			children = (
 				63B6DFA721B5223100EA59EF /* HGTY_Mac */,
 				63B6DFA621B5223100EA59EF /* Products */,
 				63B6DFBC21B524E000EA59EF /* Frameworks */,
+				63ABB9662233740300B4EA86 /* HG0086 copy-Info.plist */,
+				63CAE0A62238D19B0038104B /* CFCP copy-Info.plist */,
+				63CAE0BD2238D6570038104B /* GMCP copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +149,9 @@
 			children = (
 				63B6DFA521B5223100EA59EF /* HG6668.app */,
 				63C5116D21D0D02400D03EF0 /* HG0086.app */,
+				63ABB9652233740300B4EA86 /* CFCP.app */,
+				63CAE0A52238D19B0038104B /* GMCP.app */,
+				63CAE0BC2238D6560038104B /* HFCP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +183,9 @@
 		63C5116F21D0D25300D03EF0 /* 差异化 */ = {
 			isa = PBXGroup;
 			children = (
+				63CAE0AC2238D56A0038104B /* HFCP */,
+				63CAE0A72238D2460038104B /* GMCP */,
+				63ABB9672233746900B4EA86 /* CFCP */,
 				63C5117021D0D3ED00D03EF0 /* HG6668 */,
 				63C5117121D0D3F500D03EF0 /* HG0086 */,
 			);
@@ -132,9 +210,44 @@
 			path = HG0086;
 			sourceTree = "<group>";
 		};
+		63CAE0A72238D2460038104B /* GMCP */ = {
+			isa = PBXGroup;
+			children = (
+				63CAE0A92238D26F0038104B /* Assets_GMCP.xcassets */,
+				63CAE0A82238D26F0038104B /* Info.plist */,
+			);
+			path = GMCP;
+			sourceTree = "<group>";
+		};
+		63CAE0AC2238D56A0038104B /* HFCP */ = {
+			isa = PBXGroup;
+			children = (
+				63CAE0C12238D6EB0038104B /* Assets_GMCP.xcassets */,
+				63CAE0C02238D6EB0038104B /* Info.plist */,
+			);
+			path = HFCP;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		63ABB9562233740300B4EA86 /* CFCP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63ABB9622233740300B4EA86 /* Build configuration list for PBXNativeTarget "CFCP" */;
+			buildPhases = (
+				63ABB9572233740300B4EA86 /* Sources */,
+				63ABB95B2233740300B4EA86 /* Frameworks */,
+				63ABB95D2233740300B4EA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFCP;
+			productName = HGTY_Mac;
+			productReference = 63ABB9652233740300B4EA86 /* CFCP.app */;
+			productType = "com.apple.product-type.application";
+		};
 		63B6DFA421B5223100EA59EF /* HG6668 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63B6DFB921B5223200EA59EF /* Build configuration list for PBXNativeTarget "HG6668" */;
@@ -167,6 +280,40 @@
 			name = HG0086;
 			productName = HGTY_Mac;
 			productReference = 63C5116D21D0D02400D03EF0 /* HG0086.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63CAE0962238D19B0038104B /* GMCP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CAE0A22238D19B0038104B /* Build configuration list for PBXNativeTarget "GMCP" */;
+			buildPhases = (
+				63CAE0972238D19B0038104B /* Sources */,
+				63CAE09B2238D19B0038104B /* Frameworks */,
+				63CAE09D2238D19B0038104B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMCP;
+			productName = HGTY_Mac;
+			productReference = 63CAE0A52238D19B0038104B /* GMCP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63CAE0AD2238D6560038104B /* HFCP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CAE0B92238D6560038104B /* Build configuration list for PBXNativeTarget "HFCP" */;
+			buildPhases = (
+				63CAE0AE2238D6560038104B /* Sources */,
+				63CAE0B22238D6560038104B /* Frameworks */,
+				63CAE0B42238D6560038104B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFCP;
+			productName = HGTY_Mac;
+			productReference = 63CAE0BC2238D6560038104B /* HFCP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -209,11 +356,25 @@
 			targets = (
 				63B6DFA421B5223100EA59EF /* HG6668 */,
 				63C5115F21D0D02400D03EF0 /* HG0086 */,
+				63ABB9562233740300B4EA86 /* CFCP */,
+				63CAE0962238D19B0038104B /* GMCP */,
+				63CAE0AD2238D6560038104B /* HFCP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		63ABB95D2233740300B4EA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ABB95F2233740300B4EA86 /* Main.storyboard in Resources */,
+				63ABB9602233740300B4EA86 /* Media.xcassets in Resources */,
+				63ABB96B223375A500B4EA86 /* Assets_CFCP.xcassets in Resources */,
+				63ABB969223374A800B4EA86 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63B6DFA321B5223100EA59EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,9 +397,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63CAE09D2238D19B0038104B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CAE09E2238D19B0038104B /* Main.storyboard in Resources */,
+				63CAE0BF2238D6D50038104B /* Assets_GMCP.xcassets in Resources */,
+				63CAE09F2238D19B0038104B /* Media.xcassets in Resources */,
+				63CAE0BE2238D6D10038104B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CAE0B42238D6560038104B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CAE0B62238D6560038104B /* Main.storyboard in Resources */,
+				63CAE0C32238D6EB0038104B /* Assets_GMCP.xcassets in Resources */,
+				63CAE0B72238D6560038104B /* Media.xcassets in Resources */,
+				63CAE0C22238D6EB0038104B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		63ABB9572233740300B4EA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ABB9582233740300B4EA86 /* ViewController.m in Sources */,
+				63ABB9592233740300B4EA86 /* main.m in Sources */,
+				63ABB95A2233740300B4EA86 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63B6DFA121B5223100EA59EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,6 +452,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63CAE0972238D19B0038104B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CAE0982238D19B0038104B /* ViewController.m in Sources */,
+				63CAE0992238D19B0038104B /* main.m in Sources */,
+				63CAE09A2238D19B0038104B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CAE0AE2238D6560038104B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CAE0AF2238D6560038104B /* ViewController.m in Sources */,
+				63CAE0B02238D6560038104B /* main.m in Sources */,
+				63CAE0B12238D6560038104B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -273,6 +486,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		63ABB9632233740300B4EA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HGTY_Mac/HGTY_Mac.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V96442L257;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRODUCT=3",
+				);
+				INFOPLIST_FILE = "HGTY_Mac/差异化/CFCP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonder123q.cfcp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mac_cfcp;
+			};
+			name = Debug;
+		};
+		63ABB9642233740300B4EA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HGTY_Mac/HGTY_Mac.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V96442L257;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRODUCT=3",
+				);
+				INFOPLIST_FILE = "HGTY_Mac/差异化/CFCP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonder123q.cfcp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mac_cfcp;
+			};
+			name = Release;
+		};
 		63B6DFB721B5223200EA59EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -480,9 +741,114 @@
 			};
 			name = Release;
 		};
+		63CAE0A32238D19B0038104B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HGTY_Mac/HGTY_Mac.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V96442L257;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRODUCT=4",
+				);
+				INFOPLIST_FILE = "HGTY_Mac/差异化/GMCP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonder123q.gmcp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mac_gmcp;
+			};
+			name = Debug;
+		};
+		63CAE0A42238D19B0038104B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HGTY_Mac/HGTY_Mac.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V96442L257;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRODUCT=4",
+				);
+				INFOPLIST_FILE = "HGTY_Mac/差异化/GMCP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonder123q.gmcp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mac_gmcp;
+			};
+			name = Release;
+		};
+		63CAE0BA2238D6560038104B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HGTY_Mac/HGTY_Mac.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V96442L257;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRODUCT=5",
+				);
+				INFOPLIST_FILE = "HGTY_Mac/差异化/HFCP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonder123q.hfcp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mac_hfcp;
+			};
+			name = Debug;
+		};
+		63CAE0BB2238D6560038104B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HGTY_Mac/HGTY_Mac.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V96442L257;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRODUCT=5",
+				);
+				INFOPLIST_FILE = "HGTY_Mac/差异化/HFCP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonder123q.hfcp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mac_hfcp;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		63ABB9622233740300B4EA86 /* Build configuration list for PBXNativeTarget "CFCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ABB9632233740300B4EA86 /* Debug */,
+				63ABB9642233740300B4EA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		63B6DFA021B5223100EA59EF /* Build configuration list for PBXProject "HGTY_Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -506,6 +872,24 @@
 			buildConfigurations = (
 				63C5116B21D0D02400D03EF0 /* Debug */,
 				63C5116C21D0D02400D03EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CAE0A22238D19B0038104B /* Build configuration list for PBXNativeTarget "GMCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CAE0A32238D19B0038104B /* Debug */,
+				63CAE0A42238D19B0038104B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CAE0B92238D6560038104B /* Build configuration list for PBXNativeTarget "HFCP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CAE0BA2238D6560038104B /* Debug */,
+				63CAE0BB2238D6560038104B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

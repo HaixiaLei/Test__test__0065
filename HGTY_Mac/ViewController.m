@@ -17,6 +17,8 @@
 #define ColorHex(n) (ColorHexWithAlpha(n,1.0))
 #define TabWidth 200
 
+
+
 #import "ViewController.h"
 
 @implementation ViewController {
@@ -37,7 +39,13 @@
 
     topBar = [[NSView alloc] initWithFrame:NSMakeRect(0, self.view.frame.size.height-80, self.view.frame.size.width, 80)];
     [topBar setWantsLayer:YES];
-    [topBar.layer setBackgroundColor:ColorHex(0x493822).CGColor];
+    
+    if (PRODUCT == 1 ||
+        PRODUCT == 2) {
+        [topBar.layer setBackgroundColor:ColorHex(0x493822).CGColor];
+    } else if (PRODUCT == 3 || PRODUCT == 4 || PRODUCT == 5) {
+        [topBar.layer setBackgroundColor:ColorHex(0xc52e28).CGColor];
+    }
     [self.view addSubview:topBar];
     webContent = [[NSView alloc] initWithFrame:NSMakeRect(0, 0, self.view.frame.size.width, self.view.frame.size.height-80)];
     [self.view addSubview:webContent];
@@ -162,17 +170,8 @@
 }
 
 - (void)requstList {
-    NSString *urlString = @"";
-    NSString *listUrlString = @"";
-    if (PRODUCT == 1) {
-        urlString = @"https://www.cesu6668.com/";
-        listUrlString = @"https://www.cesu6668.com/dataInterface.php?type=mac";
-    } else if (PRODUCT == 2) {
-        urlString = @"https://www.cesu0086.com/";
-        listUrlString = @"https://www.cesu0086.com/dataInterface.php?type=mac";
-    }
-    
-    NSURL *listUrl = [NSURL URLWithString:listUrlString];
+
+    NSURL *listUrl = [NSURL URLWithString:DEFAULT_URL];
     NSData *listData = [NSData dataWithContentsOfURL:listUrl];
     if (!listData) {
         [self performSelector:@selector(cannotGetList) withObject:nil afterDelay:0.5];
@@ -191,14 +190,7 @@
 }
 
 - (void)spamRequest {
-    NSData *listData;
-    if (PRODUCT == 1) {
-        NSURL *listUrl = [NSURL URLWithString:@"https://www.cesu6668.com/dataInterface.php?type=mac"];
-        listData = [NSData dataWithContentsOfURL:listUrl];
-    } else {
-        NSURL *listUrl = [NSURL URLWithString:@"https://www.cesu0086.com/dataInterface.php?type=mac"];
-        listData = [NSData dataWithContentsOfURL:listUrl];
-    }
+    NSData *listData = [NSData dataWithContentsOfURL:[NSURL URLWithString:DEFAULT_URL]];
     [self performSelector:@selector(spamRequest) withObject:nil afterDelay:60*2];
 }
 
@@ -319,7 +311,7 @@
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationResponse:(WKNavigationResponse *)navigationResponse decisionHandler:(void (^)(WKNavigationResponsePolicy))decisionHandler
 {
     NSString *response = navigationResponse.response.URL.absoluteString;
-    if ([response containsString:@".exe"] || [response containsString:@".app"] || [response containsString:@".txt"] || [response containsString:@".xml"] || [response containsString:@".dmg"]) {
+    if ([response containsString:@".exe"] || [response containsString:@".txt"] || [response containsString:@".xml"] || [response containsString:@".dmg"]) {
         decisionHandler(WKNavigationResponsePolicyCancel);//不允许跳转
         
         NSAlert *alert = [[NSAlert alloc] init];
