@@ -45,6 +45,8 @@
         [topBar.layer setBackgroundColor:ColorHex(0x493822).CGColor];
     } else if (PRODUCT == 3 || PRODUCT == 4 || PRODUCT == 5) {
         [topBar.layer setBackgroundColor:ColorHex(0xc52e28).CGColor];
+    } else if (PRODUCT == 6) {
+        [topBar.layer setBackgroundColor:ColorHex(0x0d0d0d).CGColor];
     }
     [self.view addSubview:topBar];
     webContent = [[NSView alloc] initWithFrame:NSMakeRect(0, 0, self.view.frame.size.width, self.view.frame.size.height-80)];
@@ -54,7 +56,15 @@
     self.hgWebView.navigationDelegate = self;
     currentWebview = self.hgWebView;
     [webContent addSubview:_hgWebView];
-    [self requstList];
+    
+    if (PRODUCT != 6) {
+        [self requstList];
+    } else {
+        list = @{@"data":@[@{@"name":@"葡京娱乐场",@"url":DEFAULT_URL}]};
+        [self setupTopbar];
+        [self loadHomePage];
+    }
+    
 }
 
 - (void)setupTopbar {
@@ -163,7 +173,6 @@
     NSArray *data = [list objectForKey:@"data"];
     NSDictionary *dict = data[comboBoxIndex];
     NSString *urlstring = [dict objectForKey:@"url"];
-    
     NSURL *url = [NSURL URLWithString:urlstring];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     [self.hgWebView loadRequest:request];
@@ -205,7 +214,9 @@
     [alert setAlertStyle:NSWarningAlertStyle];
     [alert beginSheetModalForWindow:[self.view window] completionHandler:^(NSModalResponse returnCode) {
         if(returnCode == NSAlertFirstButtonReturn){//右边那个按钮
-            [self requstList];
+            if (PRODUCT != 6) {
+                [self requstList];
+            }
             NSLog(@"确定");
         }else if(returnCode == NSAlertSecondButtonReturn){//左边那个按钮
             NSLog(@"删除");

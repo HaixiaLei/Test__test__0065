@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6301E0532369583E00A8C3C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFAC21B5223100EA59EF /* ViewController.m */; };
+		6301E0542369583E00A8C3C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFB421B5223200EA59EF /* main.m */; };
+		6301E0552369583E00A8C3C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFA921B5223100EA59EF /* AppDelegate.m */; };
+		6301E0572369583E00A8C3C5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B6DFBD21B524E100EA59EF /* WebKit.framework */; };
+		6301E0592369583E00A8C3C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B6DFB021B5223200EA59EF /* Main.storyboard */; };
+		6301E05B2369583E00A8C3C5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B541A821D23E9200CE6616 /* Media.xcassets */; };
+		6301E0652369588900A8C3C5 /* Assets_PJ9685.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6301E0632369588900A8C3C5 /* Assets_PJ9685.xcassets */; };
+		6301E0662369588900A8C3C5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6301E0642369588900A8C3C5 /* Info.plist */; };
 		63ABB9582233740300B4EA86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFAC21B5223100EA59EF /* ViewController.m */; };
 		63ABB9592233740300B4EA86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFB421B5223200EA59EF /* main.m */; };
 		63ABB95A2233740300B4EA86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6DFA921B5223100EA59EF /* AppDelegate.m */; };
@@ -50,6 +58,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6301E0602369583E00A8C3C5 /* 葡京娱乐场.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "葡京娱乐场.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6301E0612369583E00A8C3C5 /* HFCP copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HFCP copy-Info.plist"; path = "/Users/david/Desktop/work/projects/HGTY_Mac/HFCP copy-Info.plist"; sourceTree = "<absolute>"; };
+		6301E0632369588900A8C3C5 /* Assets_PJ9685.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_PJ9685.xcassets; sourceTree = "<group>"; };
+		6301E0642369588900A8C3C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63ABB9652233740300B4EA86 /* CFCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63ABB9662233740300B4EA86 /* HG0086 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HG0086 copy-Info.plist"; path = "/Users/david/Desktop/work/projects/HGTY_Mac/HG0086 copy-Info.plist"; sourceTree = "<absolute>"; };
 		63ABB968223374A800B4EA86 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +92,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6301E0562369583E00A8C3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6301E0572369583E00A8C3C5 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63ABB95B2233740300B4EA86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +143,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6301E0622369588900A8C3C5 /* PJ9685 */ = {
+			isa = PBXGroup;
+			children = (
+				6301E0632369588900A8C3C5 /* Assets_PJ9685.xcassets */,
+				6301E0642369588900A8C3C5 /* Info.plist */,
+			);
+			path = PJ9685;
+			sourceTree = "<group>";
+		};
 		63ABB9672233746900B4EA86 /* CFCP */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +170,7 @@
 				63ABB9662233740300B4EA86 /* HG0086 copy-Info.plist */,
 				63CAE0A62238D19B0038104B /* CFCP copy-Info.plist */,
 				63CAE0BD2238D6570038104B /* GMCP copy-Info.plist */,
+				6301E0612369583E00A8C3C5 /* HFCP copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +182,7 @@
 				63ABB9652233740300B4EA86 /* CFCP.app */,
 				63CAE0A52238D19B0038104B /* GMCP.app */,
 				63CAE0BC2238D6560038104B /* HFCP.app */,
+				6301E0602369583E00A8C3C5 /* 葡京娱乐场.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,6 +214,7 @@
 		63C5116F21D0D25300D03EF0 /* 差异化 */ = {
 			isa = PBXGroup;
 			children = (
+				6301E0622369588900A8C3C5 /* PJ9685 */,
 				63CAE0AC2238D56A0038104B /* HFCP */,
 				63CAE0A72238D2460038104B /* GMCP */,
 				63ABB9672233746900B4EA86 /* CFCP */,
@@ -231,6 +263,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6301E0512369583E00A8C3C5 /* 葡京娱乐场 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6301E05D2369583E00A8C3C5 /* Build configuration list for PBXNativeTarget "葡京娱乐场" */;
+			buildPhases = (
+				6301E0522369583E00A8C3C5 /* Sources */,
+				6301E0562369583E00A8C3C5 /* Frameworks */,
+				6301E0582369583E00A8C3C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "葡京娱乐场";
+			productName = HGTY_Mac;
+			productReference = 6301E0602369583E00A8C3C5 /* 葡京娱乐场.app */;
+			productType = "com.apple.product-type.application";
+		};
 		63ABB9562233740300B4EA86 /* CFCP */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63ABB9622233740300B4EA86 /* Build configuration list for PBXNativeTarget "CFCP" */;
@@ -359,11 +408,23 @@
 				63ABB9562233740300B4EA86 /* CFCP */,
 				63CAE0962238D19B0038104B /* GMCP */,
 				63CAE0AD2238D6560038104B /* HFCP */,
+				6301E0512369583E00A8C3C5 /* 葡京娱乐场 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6301E0582369583E00A8C3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6301E0592369583E00A8C3C5 /* Main.storyboard in Resources */,
+				6301E0662369588900A8C3C5 /* Info.plist in Resources */,
+				6301E05B2369583E00A8C3C5 /* Media.xcassets in Resources */,
+				6301E0652369588900A8C3C5 /* Assets_PJ9685.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63ABB95D2233740300B4EA86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,6 +483,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6301E0522369583E00A8C3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6301E0532369583E00A8C3C5 /* ViewController.m in Sources */,
+				6301E0542369583E00A8C3C5 /* main.m in Sources */,
+				6301E0552369583E00A8C3C5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		63ABB9572233740300B4EA86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -486,6 +557,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6301E05E2369583E00A8C3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HGTY_Mac/HGTY_Mac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V96442L257;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRODUCT=6",
+				);
+				INFOPLIST_FILE = "HGTY_Mac/差异化/PJ9685/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonder123q.pjylc9685;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = pj9685_dev;
+			};
+			name = Debug;
+		};
+		6301E05F2369583E00A8C3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HGTY_Mac/HGTY_Mac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V96442L257;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"PRODUCT=6",
+				);
+				INFOPLIST_FILE = "HGTY_Mac/差异化/PJ9685/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wonder123q.pjylc9685;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = pj9685_dev;
+			};
+			name = Release;
+		};
 		63ABB9632233740300B4EA86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -840,6 +959,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6301E05D2369583E00A8C3C5 /* Build configuration list for PBXNativeTarget "葡京娱乐场" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6301E05E2369583E00A8C3C5 /* Debug */,
+				6301E05F2369583E00A8C3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		63ABB9622233740300B4EA86 /* Build configuration list for PBXNativeTarget "CFCP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
