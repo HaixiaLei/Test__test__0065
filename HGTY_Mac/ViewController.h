@@ -20,7 +20,7 @@
 #elif (PRODUCT == 5)//宏发
 #define DEFAULT_URL         @"https://990333.cc/dataInterface.php?type=mac"
 #elif (PRODUCT == 6)//葡京娱乐场9685
-#define DEFAULT_URL         @"https://pj-9685.gz.bcebos.com/pj-9685.html"
+#define DEFAULT_URL         @"https://pj-9685.gz.bcebos.com/799tt.html"
 //#define DEFAULT_URL         @"https://M.96859685.app"
 //#define DEFAULT_URL         @"https://sina.com.cn"
 #endif
